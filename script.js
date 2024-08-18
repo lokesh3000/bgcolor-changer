@@ -7,4 +7,7 @@ function bgchange(){
     document.body.style.backgroundColor=start;
 }
 document.querySelector("body").addEventListener("keypress",bgchange);
-document.querySelector("body").addEventListener("touchstart",bgchange)
+document.body.addEventListener("touchstart", function(event) {
+    event.preventDefault();
+    bgchange();
+});
