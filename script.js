@@ -8,4 +8,7 @@ function bgchange(){
 }
 document.querySelector("body").addEventListener("keypress",bgchange);
 document.addEventListener("touchstart", bgchange);
+setTimeout(3000,function notif(){
+    alert("press any key or touch the screen ")}
+           )
 
