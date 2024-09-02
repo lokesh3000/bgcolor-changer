@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Background Changer is a simple web app that changes the background color of the page to a random color each time you click anywhere on the page.
+The Background Changer is a simple web app that changes the background color of the page to a random color each time you press any key on the keyboard or touch the screen.
 
 ## Live Demo
 
